@@ -1,10 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://ct6ckawkaep13"]
+[gd_scene load_steps=4 format=3 uid="uid://ct6ckawkaep13"]
 
 [ext_resource type="PackedScene" uid="uid://d4a3rptumd8ip" path="res://Paddle/paddle.tscn" id="1_ops7p"]
 [ext_resource type="PackedScene" uid="uid://drcpd2hes1tku" path="res://Area/area.tscn" id="2_fabqw"]
+[ext_resource type="PackedScene" uid="uid://c5cr3pxxw0lrv" path="res://Ball/color_rect.tscn" id="2_puj7o"]
 
 [node name="Main" type="Node"]
 
 [node name="Sprite2D" parent="." instance=ExtResource("2_fabqw")]
 
 [node name="Paddle" parent="." instance=ExtResource("1_ops7p")]
+
+[node name="Ball" parent="." instance=ExtResource("2_puj7o")]

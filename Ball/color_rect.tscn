@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://c5cr3pxxw0lrv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_afuki"]
+
+[node name="Ball" type="StaticBody2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 576.0
+offset_top = 324.0
+offset_right = 596.0
+offset_bottom = 344.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(586, 334)
+shape = SubResource("RectangleShape2D_afuki")
