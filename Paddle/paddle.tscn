@@ -4,6 +4,7 @@
 size = Vector2(8, 120)
 
 [node name="Paddle" type="StaticBody2D"]
+position = Vector2(348, 216)
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_right = 8.0
